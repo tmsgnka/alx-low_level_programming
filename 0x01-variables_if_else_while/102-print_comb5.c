@@ -5,7 +5,7 @@
  *
  * Return: returns zero at the end
  */
- int main(void)
+int main(void)
 {
 int i, p;
 for (i = 0; i < 100; i++)
