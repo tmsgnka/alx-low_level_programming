@@ -1,32 +1,24 @@
 #include <stdio.h>
+
 /**
- * * main - print possible combination of two 2-digit
- * * numbers
- * *
- * * Return: returns zero at the end
- * */
+* main - print the string in the put function
+*
+* Description: using the main function
+* this program prints "Programming is like building a multilingual puzzle
+* Return: 0
+*/
 int main(void)
 {
-int i, p;
-for (i = 0; i < 100; i++)
-{
-for (p = 0; p < 100; j++)
-{
-if (p > i)
-{
-	putchar((i / 10) + '0');
-	putchar((i % 10) + '0');
-	putchar(' ');
-	putchar((p / 10) + '0');
-	putchar((p % 10) + '0');
- if (i != 98)
-{
-	putchar(',');
-	putchar(' ');
-}
-}
-}
-}
-	putchar('\n');
-return (0);
+	char c;
+	int i;
+	long li;
+	long long lli;
+	float f;
+
+	printf("Size of a char: %ld byte(s)\n", sizeof(c));
+	printf("Size of an int: %ld byte(s)\n", sizeof(i));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
+	printf("Size of a float: %ld byte(s)\n", sizeof(f));
+	return (0);
 }
