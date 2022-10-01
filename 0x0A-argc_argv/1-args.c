@@ -1,4 +1,3 @@
-You've used 87% of your storage. … If you run out of storage, you won't be able to upload new files.Learn more
 #include <stdio.h>
 
 /**
