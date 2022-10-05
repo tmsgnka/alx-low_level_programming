@@ -6,29 +6,32 @@
 *string given as a parameter.
 *@str:String to be copied
 *
-*Return: NULL IN case of error, pointer to allocated
+*Return: NULL in case of error, pointer to allocated
 *space
 */
 
 char *_strdup(char *str)
 {
 	char *cpy;
-	int i, len;
+	int index, len;
 
 	if (str == NULL)
 		return (NULL);
-	for (i = 0; str[i]; i++)
+
+	for (index = 0; str[index]; index++)
 		len++;
 	cpy = malloc(sizeof(char) * (len + 1));
 
 	if (cpy == NULL)
 		return (NULL);
+
+	for (index = 0; str[index]; index++)
 	{
-	for (i = 0; str[i]; i++);
-		cpy[i] = str[i];
+		cpy[index] = str[index];
 	}
 
 	cpy[len] = '\0';
 
 	return (cpy);
+
 }
