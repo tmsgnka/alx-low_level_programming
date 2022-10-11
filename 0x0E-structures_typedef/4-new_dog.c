@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
-i new_dog - creates a new dog
+* new_dog - creates a new dog
 * @name: name of dog
 * @age: age of dog
 * @owner: owner of dog
