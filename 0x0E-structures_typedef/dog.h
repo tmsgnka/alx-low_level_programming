@@ -1,7 +1,7 @@
 #ifndef DOG_H_FILE
 #define DOG_H_FILE
 
-struct dog 
+struct dog
 {
 	char name;
 	double age;
